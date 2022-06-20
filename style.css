@@ -1,0 +1,133 @@
+
+.bgimage {
+    background-image: url(photo.jpg);
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+  }
+navigate{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navigationlinks{
+    text-align: right;
+    flex: 1;
+}
+.navigationlinks ul li{
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    padding: 8px 12px;
+}
+.navigationlinks ul li a{
+    color: rgb(183, 167, 219);
+    font-size: 18px;
+    
+}
+
+.img1{
+    
+    text-align:top;
+    position: absolute;
+    padding-top: -20px;
+    padding-right: 1300px;
+    padding-bottom: 15px;
+    padding-left: 80px;
+    
+    
+}
+.par{
+    font-size:large;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    width: 500px;
+    padding: 25px;
+    margin: 20px;
+    padding-left: 195px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(196, 25, 25, 0.811);
+  }
+li{
+    float: left;
+}
+body{
+    margin: 0;
+}
+
+.portfolio{
+   
+}
+.main{
+    display: flex;
+}
+.container{
+  margin: 25px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 600px;
+  height: 200px;
+  border-radius: 6px;
+
+}
+
+.container img{
+    width: 100%;
+    height: auto;
+}
+.portfolioheading{
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(22, 26, 26);
+    text-align: center;
+
+}
+.contact{
+ font-style: italic;
+ font-weight: bold;
+ color: rgb(196, 65, 84);
+ position: absolute;
+ top: 325px;
+ right: 700px;
+
+
+}
+
+.box{
+  width: 320px;
+  padding: 10px;
+  background-color: rgb(13, 106, 95);
+  margin: 0;
+  position: absolute;
+  top: 400px;
+  right: 600px;
+  height: 100px;
+  border-radius: 14px;
+  
+}
+.button{
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+.icon:hover
+  {
+    transform: scale(1.03);
+  }
+.icon
+{
+    width:9%;
+    height:9%;
+    padding-right: 80px;
+    padding-top: 75px;
+    
+}
